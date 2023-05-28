@@ -4,40 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Samir</title>
+    <title>Code Academy</title>
   </head>
-  <body>
-    <h1>GeeksForGeeks</h1>
-    <h2>Lorem ipsum dolor sit.</h2>
-    <form>
-      <label for="name">Adiniz:</label>
-      <input type="text" id="name" minlength="3" /><br /><br />
-      <label for="surname">Soyad:</label>
-      <input type="text" id="surname" minlength="3" /><br /><br />
-      <label for="gender">Cinsiniz:</label>
-      <input type="radio" name="gender" value="male" />Kisi
-      <input type="radio" name="gender" value="female" />Qadin <br /><br />
-      <label for="phone">Mobil nomreniz:</label>
-      <select name="prefix">
-        <option value="050">050</option>
-        <option value="051">051</option>
-        <option value="055">055</option>
-        <option value="070">070</option>
-        <option value="077">077</option>
-      </select>
-      <input
-        type="tel"
-        id="phone"
-        maxlength="7"
-        minlength="7"
-        placeholder="xxx-xx-xx"
-        required="required"
-      /><br /><br />
-      <label for="email">E-mail:</label>
-      <input type="email" id="email" required="required" /><br /><br />
-      <label for="tarix">Dogum tarixi:</label>
-      <input type="date" id="tarix" /><br /><br />
-      <input type="submit" value="Gönder" />
-    </form>
+  <body style="background-color: aqua">
+    <h1>Code Academy</h1>
+    <h2>Melumatlari doldurun !</h2>
+    <div>
+      <form autocomplete="on">
+        <label for="name">Adiniz:</label>
+        <input
+          type="text"
+          id="name"
+          minlength="3"
+          maxlength="10"
+          placeholder="Mes:Samir"
+          required
+          autofocus
+        /><br /><br />
+        <label for="surname">Soyad:</label>
+        <input
+          type="text"
+          id="surname"
+          minlength="3"
+          maxlength="10"
+          placeholder="Mes:Xasiyev"
+          required
+        /><br /><br />
+        <label for="gender">Cinsiniz:</label>
+        <input type="radio" name="gender" value="male" />Kisi
+        <input type="radio" name="gender" value="female" />Qadin
+        <input type="radio" name="gender" value="bildirmirem" checked />Hec
+        biri<br /><br />
+        <label for="phone">Mobil nomreniz:</label>
+        <select
+          name="prefix"
+          id="phone"
+          style="background-color: beige"
+          required
+        >
+          <option disabled selected style="display: none">
+            050,051,055,070,077
+          </option>
+          <option value="050">050</option>
+          <option value="051">051</option>
+          <option value="055">055</option>
+          <option value="070">070</option>
+          <option value="077">077</option>
+        </select>
+        <input
+          style="background-color: red"
+          type="tel"
+          maxlength="7"
+          minlength="7"
+          placeholder="xxx-xx-xx"
+          required="required"
+        /><br /><br />
+        <label for="Email">E-mail:</label>
+        <input
+          type="email"
+          id="Email"
+          required="required"
+          placeholder="mehman@gmail.com"
+        /><br /><br />
+        <label for="tarix">Dogum tarixi:</label>
+        <input
+          type="date"
+          id="tarix"
+          style="background-color: aquamarine"
+        /><br /><br />
+        <input type="reset" value="Temizle" />
+        <input type="submit" value="Gonder" />
+      </form>
+    </div>
   </body>
 </html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasha Bank</title>
+    <style>
+      article {
+        color: rgb(20, 0, 0);
+        margin-bottom: 12px;
+      }
+    </style>
+  </head>
+  <body style="background-color: red">
+    <section align="center">
+      <h1><strong>Loan Application</strong></h1>
+
+      <form>
+        <h2 style="background-color: rgb(201, 233, 17)">
+          Application Information
+        </h2>
+        <article>
+          <label for="Ad">
+            <i><strong>Ad:</strong></i></label
+          >
+          <input
+            type="text"
+            id="Ad"
+            maxlength="10"
+            minlength="3"
+            placeholder="Mes:Samir"
+            required
+            autofocus
+          />
+        </article>
+        <article>
+          <label for="soyad"
+            ><i><strong>Soyad:</strong></i></label
+          >
+          <input
+            type="text"
+            id="soyad"
+            placeholder="Mes:Xasiyev"
+            maxlength="15"
+            minlength="5"
+          />
+        </article>
+        <article>
+          <label for="email"
+            ><i><strong>E-mail:</strong></i></label
+          >
+          <input
+            type="email"
+            required
+            placeholder="Mes:mehman@gmail.com"
+            id="email"
+          />
+        </article>
+        <article>
+          <label for="social"
+            ><i><strong>Sosial Teminat:</strong></i></label
+          >
+          <input type="number" id="social" placeholder="Mes:123-45-6789" />
+        </article>
+        <article>
+          <label for="daytime"
+            ><i><strong>Mobile nomre:</strong></i></label
+          >
+          <select style="background-color: beige" required id="daytime">
+            <option disabled selected style="display: none">
+              050,051,055,070,077
+            </option>
+            <option value="050">050</option>
+            <option value="051">051</option>
+            <option value="055">055</option>
+            <option value="070">070</option>
+            <option value="077">077</option>
+          </select>
+          <input
+            type="tel"
+            style="background-color: cyan"
+            type="tel"
+            maxlength="7"
+            minlength="7"
+            placeholder="xxx-xx-xx"
+            required="required"
+          />
+        </article>
+        <article>
+          <label for="evening"
+            ><i><strong>Ev tel:</strong></i></label
+          >
+          <select style="background-color: beige" required id="daytime">
+            <option disabled selected style="display: none">
+              012,018,20,21,22,23,24,25,26,36
+            </option>
+            <option value="012">012</option>
+            <option value="018">018</option>
+            <option value="020">020</option>
+            <option value="021">021</option>
+            <option value="022">022</option>
+            <option value="023">023</option>
+            <option value="024">024</option>
+            <option value="025">025</option>
+            <option value="026">026</option>
+            <option value="036">036</option>
+          </select>
+          <input
+            type="tel"
+            style="background-color: cyan"
+            type="tel"
+            maxlength="5"
+            minlength="5"
+            placeholder="xxxxx"
+            required="required"
+          />
+        </article>
+        <h2 style="background-color: rgb(201, 233, 17)">Loan Information</h2>
+        <article>
+          <label for="evening"
+            ><i><strong>Avtomobil:</strong></i></label
+          >
+          <select style="background-color: beige" required id="daytime">
+            <option disabled selected style="display: none">
+              BMW,Kia,Jeep,Ford
+            </option>
+            <option value="BMW">BMW</option>
+            <option value="Kia">Kia</option>
+            <option value="Jeep">Jeep</option>
+            <option value="Ford">Ford</option>
+          </select>
+          <input
+            type="text"
+            style="background-color: cyan"
+            type="tel"
+            maxlength="15"
+            minlength="3"
+            placeholder="Mes:BMW"
+            required="required"
+          />
+        </article>
+        <article>
+          <label for="car">Masin qiymeti:</label>
+          <input
+            id="car"
+            type="number"
+            max="20000"
+            min="5000"
+            required
+            placeholder="5000$"
+          />
+        </article>
+        <article>
+          <label for="About">Masin Haqqinda:</label>
+          <textarea id="About" cols="20" rows="6">
+               Mes: BMW haqqinda melumat...
+          </textarea>
+        </article>
+        <input type="reset" value="Temizle" style="background-color: aqua" />
+        <input
+          type="submit"
+          value="Gonder"
+          style="background-color: forestgreen"
+        />
+      </form>
+    </section>
+  </body>
+</html>

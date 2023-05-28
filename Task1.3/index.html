@@ -2,25 +2,118 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
-    <title>Kontakhome</title>
+    <title>Dog</title>
   </head>
-  <body>
+  <body style="background-color: antiquewhite">
     <header>
-      <h1>Kontakt-Home</h1>
+      <h1>Dog D.Dog</h1>
     </header>
     <section>
-      <img
-        src="../Task1.1/Sekil/download.png"        alt="Kontak-home"
-        align="right"
-        width="250"
-      />
-      <div><h2 style="background-color: aqua; color: #000">About</h2></div>      
-      <p>Lorem, ipsum dolor.</p>
-      <p>Lorem, ipsum dolor ewfgew.</p>
-      <div><h2 style="background-color: aqua; color: #000">Lorem, ipsum.</h2></div> 
-      <p>Lorem ipsum dolor sit amet.</p>
-     </div>
+      <article>
+        <img
+          src="../images/dog.picture.jpg"
+          alt="Kontak-home"
+          align="right"
+          width="230px"
+          height="280px"
+        />
+        <h2 style="background-color: aqua; color: #000">About</h2>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor ewfgew.</p>
+        <h2 style="background-color: aqua; color: #000">Lorem, ipsum.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <table border="1" width="40%" bgcolor="green">
+          <thead>
+            <tr>
+              <th>Colum 1</th>
+              <th>Colum 2</th>
+              <th>Colum 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr align="center">
+              <td colspan="3"><strong>Lorem, ipsum.</strong></td>
+            </tr>
+            <tr bgcolor="gray">
+              <td>Lorem.</td>
+              <td>Lorem, ipsum.</td>
+              <td>Lorem</td>
+            </tr>
+            <tr>
+              <td>Lorem.</td>
+              <td>Lorem, ipsum.</td>
+              <td>Lorem</td>
+            </tr>
+            <tr bgcolor="gray">
+              <td>Lorem.</td>
+              <td>Lorem, ipsum.</td>
+              <td>Lorem</td>
+            </tr>
+            <tr align="center">
+              <th colspan="3"><strong>Lorem, ipsum.</strong></th>
+            </tr>
+            <tr bgcolor="gray">
+              <td>Lorem.</td>
+              <td>Lorem, ipsum.</td>
+              <td>Lorem</td>
+            </tr>
+            <tr>
+              <td>Lorem.</td>
+              <td>Lorem, ipsum.</td>
+              <td>Lorem</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <article>
+        <h2 style="background-color: aqua; color: #000">Lorem, ipsum dolor.</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
+          repellat numquam, tempore impedit necessitatibus harum!
+        </p>
+        <h2 style="background-color: aqua; color: #000">Lorem, ipsum.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+          nulla est alias ad quas dolores, corrupti incidunt repellendus
+          voluptatem labore!
+        </p>
+        <form>
+          <label for="dog">Ad:</label>
+          <input
+            type="text"
+            id="dog"
+            placeholder="Itin adi ?"
+            maxlength="10"
+            minlength="3"
+            autofocus
+            required
+          />
+          <br /><br />
+          <label for="leqeb">Leqeb:</label>
+          <input
+            type="text"
+            id="leqeb"
+            placeholder="Itin leqebi ?"
+            maxlength="10"
+            minlength="3"
+            autofocus
+          />
+          <br /><br />
+          <label for="yasi">Yasi:</label>
+          <input
+            type="number"
+            id="yasi"
+            value="1"
+            max="15"
+            min="1"
+            required
+            autofocus
+          />
+          <br />
+          <br />
+          <input type="submit" value="Gonder" />
+        </form>
+      </article>
     </section>
   </body>
 </html>
